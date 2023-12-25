@@ -1,5 +1,5 @@
 import styles from './profile.module.scss';
-import Folder from '../../assets/svg/Folder.svg?react';
+import Folder from '../../assets/svg/folder.svg?react';
 
 const links = [
   { id: 0, title: 'Telegram' },
