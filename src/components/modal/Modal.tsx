@@ -2,7 +2,7 @@ import { ReactNode } from 'react';
 import { createPortal } from 'react-dom';
 import cn from 'classnames';
 
-import Close from '../../assets/svg/Close.svg?react';
+import Close from '../../assets/svg/close.svg?react';
 import styles from './modal.module.scss';
 
 interface ModalProps {
