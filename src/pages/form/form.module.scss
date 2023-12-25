@@ -1,0 +1,11 @@
+.step {
+    margin-top: 80px;
+}
+
+.form {
+    padding: 60px 110px;
+
+    @media screen and (max-width:600px) {
+        padding: 20px 5px;
+    }
+}

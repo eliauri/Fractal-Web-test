@@ -1,0 +1,49 @@
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+
+    @media screen and (max-width: 600px) {
+        flex-direction: column;
+    }
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    font-size: 36px;
+    color: #212830;
+    background-color: #D5E4F7;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info {}
+
+.name {
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 20px;
+
+    @media screen and (max-width: 600px) {
+        text-align: center;
+    }
+}
+
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.link {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: var(--color-purple);
+    text-decoration: none;
+}
