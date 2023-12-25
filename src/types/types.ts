@@ -5,7 +5,7 @@ export interface IData {
   name?: string;
   sername?: string;
   gender?: { label: string; value: string };
-  advantages?: string[];
+  advantages?: { advantage: string }[];
   checkbox?: string[];
   radio?: string;
   about?: string;

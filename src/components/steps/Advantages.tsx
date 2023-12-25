@@ -36,7 +36,7 @@ const Advantages = () => {
               <input
                 type='text'
                 placeholder='placeholder'
-                {...register(`advantages.${index}`, {
+                {...register(`advantages.${index}.advantage`, {
                   required: true,
                 })}
               />
@@ -52,7 +52,7 @@ const Advantages = () => {
           ))}
           <button
             type='button'
-            onClick={() => append('')}
+            onClick={() => append({ advantage: '' })}
             className={styles.addButton}>
             <PlusIcon />
           </button>
