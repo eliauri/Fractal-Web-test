@@ -13,7 +13,7 @@ const initialData = {
   nickname: '',
   name: '',
   sername: '',
-  advantages: [' '],
+  advantages: [{ advantage: '' }],
   checkbox: [],
   radio: '',
   about: '',
